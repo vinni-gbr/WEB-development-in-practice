@@ -53,7 +53,7 @@ h2 {
 
 .form-social {
     display: flex;
-    border: solid rgb(251, 255, 0);
+    border: solid rgb(255, 0, 0);
 }
 
 h4 {
@@ -64,7 +64,7 @@ h4 {
     border: solid rgb(251, 255, 0);
 }
 
-a {
+.forgot-password{
     text-decoration: none;
     color: black;
     border: solid red;
