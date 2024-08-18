@@ -3,6 +3,7 @@ body{
     padding: 0px;
     background: radial-gradient(circle, #ffffff, #8abb90);
     font-family: "EB Garamond", serif;
+    perspective: 1000px; /* Adiciona a perspectiva para o efeito 3D */
 }
 
 main {
@@ -20,12 +21,16 @@ main {
     border-radius: 20px;
     box-shadow: 0px 4px 20px rgb(131, 127, 127);
     overflow: hidden; /*esconder tudo que estiver fora do "Container"*/
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
 }
 
 .form-container{
     width: 100%;
     height: 80%;
     display: flex;
+    backface-visibility: hidden; /* Oculta a parte de trás do elemento */
 }
 
 .form{
