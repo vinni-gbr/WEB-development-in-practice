@@ -13,7 +13,6 @@ main {
     border: 2px solid #ff0000; /*Só para entender certinho até onde vai*/
 }
 
-
 .login-container{
     width: 800px;
     height: 500px;  
@@ -45,6 +44,9 @@ main {
 }
 
 .form-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #b46868;
 }
 
@@ -55,22 +57,23 @@ h2 {
     font-size: 2rem;
 }
 
-.form-social {
+.form-social{
     display: flex;
     gap: 25px; /*Comando para separar os social icons*/
 }
 
 h4 {
     color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
-.form-inputs {
+.form-inputs{
     display: flex;
     flex-direction: column;
     gap: 10px; /*Espaço entre os elementos inside*/
 }
 
-.form-input {
+.form-input{
     width: 250px;
     height: 25px;
     background-color: #ffffff;
@@ -80,7 +83,7 @@ h4 {
     outline: none;
 }
 
-.form-input:hover {
+.form-input:hover{
     border-style:solid ;
     border-color:#0004;
 }
@@ -104,7 +107,7 @@ h4 {
     font-family: "EB Garamond", serif;
 }
 
-.login-button:hover {
+.login-button:hover{
     background-color: white;
     color: black;
     border: solid #da8282;
@@ -125,10 +128,28 @@ h4 {
     background-color: #b46868;
 }
 
-.social-icons:hover {
+.social-icons:hover{
     background-color: white;
     color: #b46868;
     box-shadow: 10px 14px 10px #0004;
     transition: .5s; /*Tempo para transição do efeito*/
     transform: translateY(-20%); /*Efeito para subir (quantidade de % é altura*/
+}
+
+.register-button{
+    width: 200px;
+    height: 40px;
+    font-size:20px;
+    color:  #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.267);
+    border-style: none;
+    cursor:pointer;
+    font-family: "EB Garamond", serif;
+}
+
+.title2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
