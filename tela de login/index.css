@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #ffffff;
+    background: radial-gradient(circle, #ffffff, #8abb90);
     font-family: "EB Garamond", serif;
 }
 
@@ -47,14 +47,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b46868;
+    background-color: #65bd62;
 }
 
 h2 {
-    color: #000000;
     display: flex;
-    justify-content: center;
-    font-size: 2rem;
+    justify-content:center;
+    font-size:2rem;
 }
 
 .form-social{
@@ -99,7 +98,7 @@ h4 {
     height: 40px;
     font-size:16px;
     color: rgb(255, 255, 255);
-    background-color: #b46868;
+    background-color: #65bd62;
     border-radius: 30px;
     box-shadow: 0 4px 4px #0004;
     border-style: none;
@@ -110,7 +109,7 @@ h4 {
 .login-button:hover{
     background-color: white;
     color: black;
-    border: solid #da8282;
+    border: solid #65bd62;
     transition: .5s;
 }
 
@@ -125,12 +124,12 @@ h4 {
     align-items: center; /*Alinhando ao EIXO Y*/
     font-size: 1.5rem;
     box-shadow: 0 4px 4px #0004;
-    background-color: #b46868;
+    background-color: #65bd62;
 }
 
 .social-icons:hover{
     background-color: white;
-    color: #b46868;
+    color: #65bd62;
     box-shadow: 10px 14px 10px #0004;
     transition: .5s; /*Tempo para transição do efeito*/
     transform: translateY(-20%); /*Efeito para subir (quantidade de % é altura*/
@@ -151,5 +150,11 @@ h4 {
 
 .title2 {
     color: rgb(0, 0, 0);
-    text-decoration: underline;
+}
+
+.register-button:hover{
+    background-color: white;
+    color: #65bd62;
+    transition: .5s;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.267);
 }
