@@ -81,15 +81,12 @@ h4 {
     width: 250px;
     height: 25px;
     background-color: #ffffff;
-    border-radius: 30px;
-    padding: 10px 20px;
-    border-style:1px transparent;
-    border-color: rgba(0, 0, 0, 0.267);
+    border-radius:20px;
+    padding: 10px 10px;
+    border-style:1px solid transparent;
+    border-color: #ffffff;
+    border: 1px solid #d3d4d3;
     outline: none;
-}
-
-.form-input:hover{
-    border-color:rgba(0, 0, 0, 0.267);
 }
 
 .forgot-password{
