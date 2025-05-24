@@ -88,3 +88,40 @@ display: flex;
 display: flex;
 }
 }
+
+                                            /*SUBMENU DA ABA "SOBRE" */          
+.submenu {
+position: relative;
+  transition: 5s;
+}
+
+.dropdown {
+position: absolute;
+top: 100%;
+left: 0;
+background: #444;
+list-style: none;
+padding: 0.5rem 0;
+display: none;
+flex-direction: column;
+min-width: 150px;
+border-radius: 5px;
+}
+
+.dropdown li {
+padding: 0.5rem 1rem;
+}
+
+.dropdown li a {
+color: white;
+text-decoration: none;
+}
+
+.dropdown li a:hover {
+background: #555;
+}
+
+/* Mostrar submenu ao passar o mouse */
+.submenu:hover .dropdown {
+display: flex;
+}
