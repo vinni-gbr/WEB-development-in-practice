@@ -1,0 +1,90 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* cores a serem usadas: #2f2f2f e #fe6f27 */
+body{
+font-family: 'Arial', sans-serif;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+background-color: #2f2f2f ;
+color: #ffffff;
+}
+
+.logo{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.nav{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.nav-links{
+list-style: none;
+display: flex;
+gap: 1rem;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.nav-links a:hover{
+color: #007BFF;
+}
+
+.btn-cta{
+padding: 0.5rem 1rem;
+background: #000000;
+color: #ffffff;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.menu-toggle{
+display: none;
+flex-direction: column;
+cursor: pointer;
+gap: 5px;
+}
+
+.menu-toggle span{
+width: 25px;
+height: 3px;
+background: #fe6f27;
+border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+flex-direction: column;
+background: #333;
+position: absolute;
+top: 60px;
+right: 20px;
+width: 150px;
+border-radius: 5px;
+padding: 1rem;
+}
+
+.nav-links.active {
+display: flex;
+}
+
+.menu-toggle {
+display: flex;
+}
+}
